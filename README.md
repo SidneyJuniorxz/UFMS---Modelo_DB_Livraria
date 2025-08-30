@@ -7,6 +7,7 @@ Modelo simples com **clientes**, **produtos**, **pedidos** e **itens_pedido**, i
 ```bash
 psql -U postgres -c "CREATE DATABASE livraria;"
 psql -U postgres -d livraria -f schema_db.sql
+psql -U postgres -d livraria -f data_ops.sql 
 
 
 Depois Consulte
